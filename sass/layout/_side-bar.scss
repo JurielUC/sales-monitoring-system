@@ -1,0 +1,29 @@
+@use '../utils' as *;
+@use '../components';
+
+.side-bar {
+    
+    ul {
+        padding: 90px 30px 0 30px;
+
+        li {
+            list-style: none;
+            margin: 0 0 30px 0;
+            color: $white-color;
+
+            a {
+                font-size: 1rem;
+                color: $white-color;
+
+                &:hover {
+                    border-bottom: 1px solid $white-color;
+                }
+            }
+
+            h2 {
+                font-weight: 700;
+                border-bottom: 1px solid $white-color;
+            }
+        }
+    }
+}

@@ -1,0 +1,10 @@
+@use '../utils' as *;
+
+a {
+    text-decoration: none;
+    transition: 0.3s;
+
+    &:hover {
+        opacity: 75%;
+    }
+}

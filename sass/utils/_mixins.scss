@@ -1,0 +1,19 @@
+@mixin flexBox() {
+    display: flex;
+}
+
+@mixin justify-center() {
+    @include flexBox();
+    justify-content: center;
+}
+
+@mixin align-center() {
+    @include flexBox();
+    align-items: center;
+}
+
+@mixin center() {
+    @include flexBox();
+    justify-content: center;
+    align-items: center;
+}
