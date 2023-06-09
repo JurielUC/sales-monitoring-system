@@ -34,6 +34,7 @@ header {
   color: #ffffff;
   display: flex;
   position: fixed;
+  z-index: 999;
 }
 header .title {
   width: 50%;
@@ -101,10 +102,116 @@ main .side-container {
   width: 20%;
   height: 100vh;
   background-color: #555555;
+  position: fixed;
+  z-index: 0;
 }
 main .content {
   width: 80%;
   height: 100vh;
+  margin-left: 20%;
+}
+main .content .search-table {
+  margin-top: 200px;
+  overflow-y: auto;
+  /* Add hover effect to table rows */
+}
+main .content .search-table table.dataTable {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100% !important;
+}
+main .content .search-table table.dataTable td, main .content .search-table th {
+  border: 1px solid #cccccc;
+  text-align: left;
+  padding: 8px;
+  font-size: 0.8125rem;
+}
+main .content .search-table table.dataTable tr:nth-child(even) {
+  background-color: #f1f1f1;
+}
+main .content .search-table .dataTables_length {
+  font-size: 1rem;
+  margin-right: 10px;
+  padding: 5px;
+  border-radius: 5px;
+}
+main .content .search-table .dataTables_filter input {
+  width: 200px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  padding: 5px;
+  font-size: 1rem;
+  margin-left: 10px;
+  font-family: "Times New Roman", Times, serif;
+  outline: none;
+}
+main .content .search-table .dataTables_filter {
+  margin: 0 10px;
+}
+main .content .search-table .dataTables_wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+main .content .search-table .dataTables_length,
+main .content .search-table .dataTables_filter {
+  margin-bottom: 10px;
+}
+main .content .search-table .dataTables_length label,
+main .content .search-table .dataTables_filter label {
+  display: flex;
+  align-items: center;
+}
+main .content .search-table .dataTables_length select {
+  color: #555555;
+  border: 1px solid #cccccc;
+  outline: none;
+  border-radius: 3px;
+  padding: 5px;
+  margin: 0 5px;
+}
+main .content .search-table .dt-button {
+  background-color: #555555;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  padding: 7px 0;
+  width: 70px;
+  transition: 0.3s;
+}
+main .content .search-table .dt-button:hover {
+  opacity: 75%;
+}
+main .content .search-table .dataTables_wrapper .dataTables_paginate .paginate_button {
+  background-color: #555555;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  padding: 2px 10px;
+  margin: 0 5px 0 0;
+  cursor: pointer;
+}
+main .content .search-table .dataTables_wrapper .dataTables_info {
+  color: #555555;
+  margin-top: 10px;
+  margin-left: 5px;
+}
+main .content .search-table #myTable {
+  border-collapse: collapse;
+  width: 100%;
+}
+main .content .search-table #myTable th,
+main .content .search-table #myTable td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #dddddd;
+}
+main .content .search-table #myTable th {
+  background-color: #f2f2f2;
+}
+main .content .search-table #myTable tbody tr:hover {
+  background-color: #f9f9f9;
 }
 main .content .content-container {
   width: 100%;

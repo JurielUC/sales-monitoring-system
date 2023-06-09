@@ -16,11 +16,137 @@
         width: 20%;
         height: 100vh;
         background-color: $apple-gray;
+        position: fixed;
+        z-index: 0;
     }
 
     .content {
         width: 80%;
         height: 100vh;
+        margin-left: 20%;
+
+        .search-table {
+            margin-top: 200px;
+            overflow-y: auto;
+            
+            table.dataTable {
+                font-family: arial, sans-serif;
+                border-collapse: collapse;
+                width: 100% !important;
+            }
+              
+            table.dataTable td, th {
+                border: 1px solid $gray-color;
+                text-align: left;
+                padding: 8px;
+                font-size: 0.8125rem;
+            }
+              
+            table.dataTable tr:nth-child(even) {
+                background-color: $trans-color;
+            }
+            
+            .dataTables_length {
+                font-size: 1rem;
+                margin-right: 10px;
+                padding: 5px;
+                border-radius: 5px;
+            }
+            
+            .dataTables_filter input {
+                width: 200px;
+                border: 1px solid #ccc;
+                border-radius: 3px;
+                padding: 5px;
+                font-size: 1rem;
+                margin-left: 10px;
+                font-family: 'Times New Roman', Times, serif;
+                outline: none;
+            }
+            
+            .dataTables_filter {
+                margin: 0 10px;
+            }
+
+            .dataTables_wrapper {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                flex-wrap: wrap;
+            }
+              
+            .dataTables_length,
+            .dataTables_filter {
+                margin-bottom: 10px;
+            }
+              
+            .dataTables_length label,
+            .dataTables_filter label {
+                display: flex;
+                align-items: center;
+            }
+              
+            .dataTables_length select {
+                color: $apple-gray;
+                border: 1px solid $gray-color;
+                outline: none;
+                border-radius: 3px;
+                padding: 5px;
+                margin: 0 5px;
+            }  
+
+            .dt-button {
+                background-color: $apple-gray;
+                color: $white-color;
+                border: none;
+                border-radius: 5px;
+                padding: 7px 0;
+                width: 70px;
+                transition: 0.3s;
+
+                &:hover {
+                    opacity: 75%;
+                }
+            }
+
+            .dataTables_wrapper .dataTables_paginate .paginate_button {
+                background-color: $apple-gray;
+                color: $white-color;
+                border: none;
+                border-radius: 5px;
+                padding: 2px 10px;
+                margin: 0 5px 0 0;
+                cursor: pointer;
+            }
+
+            .dataTables_wrapper .dataTables_info {
+                color: $apple-gray;
+                margin-top: 10px;
+                margin-left: 5px;
+            }
+
+            //it makes the table design changes
+            #myTable {
+                border-collapse: collapse;
+                width: 100%;
+            }
+          
+            #myTable th,
+            #myTable td {
+                padding: 8px;
+                text-align: left;
+                border-bottom: 1px solid #dddddd;
+            }
+          
+            #myTable th {
+                background-color: #f2f2f2;
+            }
+          
+            /* Add hover effect to table rows */
+            #myTable tbody tr:hover {
+                background-color: #f9f9f9;
+            }
+        }
 
         .content-container {
             width: 100%;

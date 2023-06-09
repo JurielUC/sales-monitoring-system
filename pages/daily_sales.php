@@ -47,6 +47,184 @@
                 </div>
             </div>
         </div>
+
+        <!--Datatables-->
+        <div class="search-table">
+            <table id="myTable" class="display table table-striped">
+                <thead>
+                    <tr>
+                        <th>Title 1</th>
+                        <th>Title 2</th>
+                        <th>Title 3</th>
+                        <th>Title 4</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Value 1</td>
+                        <td>Value 2</td>
+                        <td>Value 3</td>
+                        <td>Value 4</td>
+                    </tr>
+                    <tr>
+                        <td>Value 4</td>
+                        <td>Value 5</td>
+                        <td>Value 6</td>
+                        <td>Value 7</td>
+                    </tr>
+                    <tr>
+                        <td>Value 7</td>
+                        <td>Value 8</td>
+                        <td>Value 9</td>
+                        <td>Value 10</td>
+                    </tr>
+                    <tr>
+                        <td>Value 1</td>
+                        <td>Value 2</td>
+                        <td>Value 3</td>
+                        <td>Value 4</td>
+                    </tr>
+                    <tr>
+                        <td>Value 4</td>
+                        <td>Value 5</td>
+                        <td>Value 6</td>
+                        <td>Value 7</td>
+                    </tr>
+                    <tr>
+                        <td>Value 7</td>
+                        <td>Value 8</td>
+                        <td>Value 9</td>
+                        <td>Value 10</td>
+                    </tr>
+                    <tr>
+                        <td>Value 1</td>
+                        <td>Value 2</td>
+                        <td>Value 3</td>
+                        <td>Value 4</td>
+                    </tr>
+                    <tr>
+                        <td>Value 4</td>
+                        <td>Value 5</td>
+                        <td>Value 6</td>
+                        <td>Value 7</td>
+                    </tr>
+                    <tr>
+                        <td>Value 7</td>
+                        <td>Value 8</td>
+                        <td>Value 9</td>
+                        <td>Value 10</td>
+                    </tr>
+                    <tr>
+                        <td>Value 1</td>
+                        <td>Value 2</td>
+                        <td>Value 3</td>
+                        <td>Value 4</td>
+                    </tr>
+                    <tr>
+                        <td>Value 4</td>
+                        <td>Value 5</td>
+                        <td>Value 6</td>
+                        <td>Value 7</td>
+                    </tr>
+                    <tr>
+                        <td>Value 7</td>
+                        <td>Value 8</td>
+                        <td>Value 9</td>
+                        <td>Value 10</td>
+                    </tr>
+                    <tr>
+                        <td>Value 1</td>
+                        <td>Value 2</td>
+                        <td>Value 3</td>
+                        <td>Value 4</td>
+                    </tr>
+                    <tr>
+                        <td>Value 4</td>
+                        <td>Value 5</td>
+                        <td>Value 6</td>
+                        <td>Value 7</td>
+                    </tr>
+                    <tr>
+                        <td>Value 7</td>
+                        <td>Value 8</td>
+                        <td>Value 9</td>
+                        <td>Value 10</td>
+                    </tr>
+                    <tr>
+                        <td>Value 1</td>
+                        <td>Value 2</td>
+                        <td>Value 3</td>
+                        <td>Value 4</td>
+                    </tr>
+                    <tr>
+                        <td>Value 4</td>
+                        <td>Value 5</td>
+                        <td>Value 6</td>
+                        <td>Value 7</td>
+                    </tr>
+                    <tr>
+                        <td>Value 7</td>
+                        <td>Value 8</td>
+                        <td>Value 9</td>
+                        <td>Value 10</td>
+                    </tr>
+                    <tr>
+                        <td>Value 1</td>
+                        <td>Value 2</td>
+                        <td>Value 3</td>
+                        <td>Value 4</td>
+                    </tr>
+                    <tr>
+                        <td>Value 4</td>
+                        <td>Value 5</td>
+                        <td>Value 6</td>
+                        <td>Value 7</td>
+                    </tr>
+                    <tr>
+                        <td>Value 7</td>
+                        <td>Value 8</td>
+                        <td>Value 9</td>
+                        <td>Value 10</td>
+                    </tr>
+                    <tr>
+                        <td>Value 1</td>
+                        <td>Value 2</td>
+                        <td>Value 3</td>
+                        <td>Value 4</td>
+                    </tr>
+                    <tr>
+                        <td>Value 4</td>
+                        <td>Value 5</td>
+                        <td>Value 6</td>
+                        <td>Value 7</td>
+                    </tr>
+                    <tr>
+                        <td>Value 7</td>
+                        <td>Value 8</td>
+                        <td>Value 9</td>
+                        <td>Value 10</td>
+                    </tr>
+                    <tr>
+                        <td>Value 1</td>
+                        <td>Value 2</td>
+                        <td>Value 3</td>
+                        <td>Value 4</td>
+                    </tr>
+                    <tr>
+                        <td>Value 4</td>
+                        <td>Value 5</td>
+                        <td>Value 6</td>
+                        <td>Value 7</td>
+                    </tr>
+                    <tr>
+                        <td>Value 7</td>
+                        <td>Value 8</td>
+                        <td>Value 9</td>
+                        <td>Value 10</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
     </div>
 </main>
 

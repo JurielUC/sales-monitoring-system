@@ -8,6 +8,7 @@ header {
     color: $white-color;
     @include flexBox();
     position: fixed;
+    z-index: 999;
 
     .title {
         width: 50%;
